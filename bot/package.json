@@ -1,0 +1,36 @@
+{
+  "name": "filebotfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slack.js",
+  "scripts": {
+    "start": "nodemon slack.js",
+    "test": "mocha --reporter spec"
+  },
+  "author": "csc510-15",
+  "license": "ISC",
+  "dependencies": {
+    "@aternus/csv-to-xlsx": "^1.0.19",
+    "@slack/bolt": "^3.10.0",
+    "@slack/events-api": "^3.0.1",
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.7.0",
+    "axios": "^0.26.0",
+    "chai": "^4.3.6",
+    "convert-array-to-csv": "^2.0.0",
+    "csv-string": "^4.1.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "github-content": "^1.0.1",
+    "json-as-xlsx": "^2.4.0",
+    "json2csv": "^5.0.7",
+    "mocha": "^9.2.1",
+    "nock": "^13.2.4",
+    "node-json-xlsx": "^0.2.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "c8": "^7.11.0",
+    "nodemon": "^2.0.15"
+  }
+}

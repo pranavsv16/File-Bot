@@ -1,0 +1,32 @@
+{
+    "text": "Hi there! I'm your File Bot. If you are looking for CSV file services. I'm here.",
+    "attachments": [
+        {
+            "text": "Choose one of the options below:",
+            "fallback": "Sorry, File Bot is down",
+            "callback_id":"firstmenu",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "actions": [
+                {
+                    "name": "service",
+                    "text": "File Extraction : Summary Report",
+                    "type": "button",
+                    "value": "service1"
+                },
+                {
+                    "name": "service",
+                    "text": "File Conversions",
+                    "type": "button",
+                    "value": "service2"
+                },
+                {
+                    "name": "service",
+                    "text": "File Manipulation",
+                    "type": "button",
+                    "value": "service3"
+                }
+            ]
+        }
+    ]
+}

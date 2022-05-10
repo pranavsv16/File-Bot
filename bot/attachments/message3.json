@@ -1,0 +1,26 @@
+{
+    "text": "Hi there! I'm your File Bot. If you are looking for CSV file services. I'm here.",
+    "attachments": [
+        {
+            "text": "Please select desired file manipulation",
+            "fallback": "Sorry, File Bot is down",
+            "callback_id":"service3",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "actions": [
+                {
+                    "name": "service3",
+                    "text": "Drop a Column",
+                    "type": "button",
+                    "value": "serviceDrop"
+                },
+                {
+                    "name": "service3",
+                    "text": "Truncate Rows",
+                    "type": "button",
+                    "value": "serviceTruncate"
+                }
+            ]
+        }
+    ]
+}

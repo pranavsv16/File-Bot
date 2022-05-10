@@ -1,0 +1,11 @@
+{
+    "data":
+    [
+    {"type": "section", "text": {"type": "plain_text", "text": "Here is the summary report : "}}, 
+    {"type": "section", "text": {"type": "plain_text", "text": "1. Number of rows: 2,000"}},
+    {"type": "section", "text": {"type": "plain_text", "text": "2. Number of columns: 10"}},
+    {"type": "section", "text": {"type": "plain_text", "text": "3. Column Names (with Datatype)"}},
+    {"type": "section", "text": {"type": "plain_text", "text": "ID : Integer"}},
+    {"type": "section", "text": {"type": "plain_text", "text": "Age : String"}}
+]
+}

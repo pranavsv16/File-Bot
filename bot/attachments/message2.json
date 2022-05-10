@@ -1,0 +1,26 @@
+{
+    "text": "Hi there! I'm your File Bot. If you are looking for CSV file services. I'm here.",
+    "attachments": [
+        {
+            "text": "Please select desired file format",
+            "fallback": "Sorry, File Bot is down",
+            "callback_id":"service2",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "actions": [
+                {
+                    "name": "service",
+                    "text": "JSON",
+                    "type": "button",
+                    "value": "json"
+                },
+                {
+                    "name": "service",
+                    "text": "XLSX",
+                    "type": "button",
+                    "value": "xlsx"
+                }
+            ]
+        }
+    ]
+}
